@@ -1,0 +1,5 @@
+# Dependencies for reproducing Table 1 (Bézier Shuttle + Brent benchmarks)
+numpy>=1.23
+
+# Recommended Python version
+# Tested with Python 3.9–3.12
