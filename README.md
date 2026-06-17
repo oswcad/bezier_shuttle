@@ -63,12 +63,14 @@ e^(-x)-0.1                           0.5       37       35      2     2.302585
 	•	Bézier Shuttle (Cadenas 2025): a two-step quadratic Bézier contraction that precedes Brent’s landing phase. Each shuttle uses the midpoint ( x_c ) to curve the bracket toward the function’s shape before invoking Brent’s interpolation.
 
 ## Citation
-@article{cadenas2026bezier,
-  title={A Bézier Shuttle for Accelerating Brent's Root-Finder},
-  author={Cadenas, Oswaldo},
-  journal={Applied Numerical Mathematics},
-  year={2025}
-}
+
+If you use this software, please cite the accompanying manuscript:
+
+> Oswaldo Cadenas,
+
+> *A Bézier Shuttle for Accelerating Brent's Root-Finder*,
+
+> manuscript under review.
 
 ## License
 MIT License © 2025 Oswaldo Cadenas
