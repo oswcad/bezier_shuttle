@@ -1,5 +1,6 @@
 # bezier_shuttle
-Reproducibility code for "A Quadratic Bézier Shuttle for Brent’s Root-Finder" (Applied Mathematics Letters 2025)
+Reproducibility code accompanying the manuscript:
+"A Bézier Shuttle for Accelerating Brent’s Root-Finder" 
 
 ## Quick start
 
@@ -17,9 +18,9 @@ python table1.py
 
 Reproducibility code for the paper:
 
-> **A Quadratic Bézier Shuttle for Brent’s Root-Finder**  
+> **A Bézier Shuttle for Accelerating Brent’s Root-Finder**  
 > Oswaldo Cadenas  
-> *Applied Mathematics Letters, 2025 (submitted/accepted)*
+
 
 This repository reproduces **Table 1** of the paper, comparing the original 1973 Brent method with the proposed two-step Bézier Shuttle + Brent hybrid.  
 The experiments confirm that the Bézier Shuttle safely reduces the iteration count for curved and oscillatory functions while preserving bracketing stability and final residual accuracy.
