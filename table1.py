@@ -43,8 +43,10 @@ def bezier_step(f, x1, x2, alpha=0.5):
         return x1p, x2p
     elif f1 * f2p < 0:
         return x1, x2p
-    else:
+    elif f1p * f2 < 0:
         return x1p, x2
+    else:
+        return x1, x2
 
 
 def brent1973(f, a, b, tol=1e-12, maxiter=1000):
